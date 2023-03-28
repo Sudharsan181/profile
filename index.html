@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>My Profile</h1>
+      <p>Welcome to my profile!</p>
+    </div>
+    
+    <div class="container">
+      <div class="profile">
+        <img src="https://drive.google.com/uc?export=view&id=1W7emCQ2o5Vxt-79zL_lX05ifa6ovzHml" alt="Profile Picture">
+        <h2>Sudharsan K</h2>
+        <p>Product Developer(Front-end)</p>
+        <ul>
+          <li>Email: sudharsan.k.bca@gmail.com</li>
+          <li>Phone: 9626938626</li>
+          <li>Location: Coimbatore, Tamil Nadu, India</li>
+        </ul>
+      </div>
+      
+      <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>ReactJS</li>
+          <li>Python</li>
+        </ul>
+      </div>
+      
+      <div class="experience">
+        <h2>Experience</h2>
+        <h3>Product Developer(Front-end), DevOpsLabs</h3>
+        <p>January 2023 - Present</p>
+        <ul>
+          <li>Developed web applications using HTML, CSS, JavaScript and ReactJS.</li>
+          <li>Collaborated with team members to design and implement new features.</li>
+          <li>Optimized website performance and improved user experience.</li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" method="post" action="contact-form.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" action="contact-form.php">Send Message</button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>&copy; 2023 Sudharsan K</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
